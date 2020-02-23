@@ -213,7 +213,7 @@ lines.markersize  : 8            ## markersize, in points
 ## settings for axes and ticks. Special text sizes can be defined
 ## relative to font.size, using the following values: xx-small, x-small,
 ## small, medium, large, x-large, xx-large, larger, or smaller
-font.size           : 14 # 10.0
+font.size           : 12 # 10.0
 #font.serif          : DejaVu Serif, Bitstream Vera Serif, Computer Modern Roman, New Century Schoolbook, Century Schoolbook L, Utopia, ITC Bookman, Bookman, Nimbus Roman No9 L, Times New Roman, Times, Palatino, Charter, serif
 font.sans-serif     : DejaVu Sans #DejaVu Sans, Bitstream Vera Sans, Computer Modern Sans Serif, Lucida Grande, Verdana, Geneva, Lucid, Arial, Helvetica, Avant Garde, sans-serif
 #font.cursive        : Apple Chancery, Textile, Zapf Chancery, Sand, Script MT, Felipa, cursive
@@ -301,10 +301,10 @@ axes.linewidth      : 1.0     ## edge linewidth
 axes.grid           : True   ## display grid or not
 axes.grid.axis      : both    ## which axis the grid should apply to
 axes.grid.which     : major   ## gridlines at major, minor or both ticks
-axes.titlesize      : 14 #large   ## fontsize of the axes title
+axes.titlesize      : 12 #large   ## fontsize of the axes title
 #axes.titleweight    : normal  ## font weight of title
 #axes.titlepad       : 6.0     ## pad between axes and title in points
-axes.labelsize      : 14 #medium  ## fontsize of the x any y labels
+axes.labelsize      : 12 #medium  ## fontsize of the x any y labels
 #axes.labelpad       : 4.0     ## space between label and axis
 #axes.labelweight    : normal  ## weight of the x and y labels
 axes.labelcolor     : (0.15, 0.15, 0.15) #black
@@ -381,7 +381,7 @@ xtick.minor.size     : 3     ## minor tick size in points
 #xtick.major.pad      : 3.5    ## distance to major tick label in points
 #xtick.minor.pad      : 3.4    ## distance to the minor tick label in points
 xtick.color          : (0.15, 0.15, 0.15) #black  ## color of the tick labels
-xtick.labelsize      : 14 #medium ## fontsize of the tick labels
+xtick.labelsize      : 12 #medium ## fontsize of the tick labels
 xtick.direction      : in #out    ## direction: in, out, or inout
 xtick.minor.visible  : True #False  ## visibility of minor ticks on x-axis
 xtick.major.top      : True   ## draw x axis top major ticks
@@ -401,7 +401,7 @@ ytick.minor.size     : 3 #2      ## minor tick size in points
 #ytick.major.pad      : 3.5    ## distance to major tick label in points
 #ytick.minor.pad      : 3.4    ## distance to the minor tick label in points
 ytick.color          : (0.15, 0.15, 0.15)# black  ## color of the tick labels
-ytick.labelsize      : 14 #medium ## fontsize of the tick labels
+ytick.labelsize      : 12 #medium ## fontsize of the tick labels
 ytick.direction      : in #out    ## direction: in, out, or inout
 ytick.minor.visible  : True #False  ## visibility of minor ticks on y-axis
 ytick.major.left     : True   ## draw y axis left major ticks
@@ -443,7 +443,7 @@ legend.fontsize      : 12 #medium
 ## See http://matplotlib.org/api/figure_api.html#matplotlib.figure.Figure
 figure.titlesize : 14 #large      ## size of the figure title (Figure.suptitle())
 #figure.titleweight : normal   ## weight of the figure title
-figure.figsize   :  6.0, 4.0 #6.4, 4.8   ## figure size in inches
+figure.figsize   :  4.5, 3 #6.4, 4.8   ## figure size in inches
 figure.dpi       : 100 #100        ## figure dots per inch
 #figure.facecolor : white      ## figure facecolor
 #figure.edgecolor : white      ## figure edgecolor
