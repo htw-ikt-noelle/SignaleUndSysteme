@@ -1,0 +1,27 @@
+1 generate "empty" repository
+2 open on mybinder
+3 add octave funtionalities:
+	* add all apt-get packages for octave in binder/apt.txt
+	* see also https://github.com/binder-examples/octave
+	* currently: 
+		octave
+		octave-symbolic
+		octave-miscellaneous
+		gnuplot
+		ghostscript
+4 check for required conda packages for notebooks with 'conda list <package>' and if not present install them with 'conda install <package>':
+	* currently:
+		numpy
+		scipy
+		matplotlib
+		ipywidgets (probably already installed)
+		nodejs (probably already installed)
+5 install jupyterlab-manager with 'jupyter labextension install @jupyter-widgets/jupyterlab-manager':
+	* watch out for conflicting versions of jupyterlab (under Menue Help/aboutJupyter) and jupyterlab-manager ('jupyter labextension list @jupyter-widgets/jupyterlab-manager')
+	* see also https://github.com/jupyter-widgets/ipywidgets/tree/master/packages/jupyterlab-manager
+7 TEST ALL critical notebooks
+8 export updated conda environmant to an 'environment.yml' file with 'conda env export --no-builds -f environment.yml'
+	* see also https://github.com/binder-examples/conda
+9 store 'environment.yml' file in all working repositories in binder/environment.yml
+10 add postbuild command for jupyterlab-manager ('jupyter labextension install @jupyter-widgets/jupyterlab-manager@<correct version>') in binder/postbuild in all working repositories in order to guarantee widgets to work in repositories
+	* see also https://github.com/binder-examples/jupyter-extension
