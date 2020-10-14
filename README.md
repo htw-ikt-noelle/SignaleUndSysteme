@@ -1,6 +1,6 @@
 # Signaluebertragung
 
-This repository contains interactive material for the course "Signalübertragung" (signals and systems) read at the university of applied science ([HTW](https://www.htw-berlin.de/)) Berlin by [Markus Nölle](https://www.htw-berlin.de/hochschule/personen/person/?eid=9586). 
+This repository contains interactive material for the course "Signalübertragung" (signals and systems) read at the university of applied sciences ([HTW](https://www.htw-berlin.de/)) Berlin by [Markus Nölle](https://www.htw-berlin.de/hochschule/personen/person/?eid=9586). 
 
 It is a collection of individual Jupyter notebooks which are supposed to deepen and foster the understanding of selected topics presented during the lectures.
 
