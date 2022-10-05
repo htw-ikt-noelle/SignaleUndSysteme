@@ -5,4 +5,4 @@ It is a collection of individual Jupyter notebooks which are supposed to deepen 
 
 Ther are basically two different ways of using these notebooks
 * either local execution (requires a functioning installation of [Jupyter-lab](https://jupyterlab.readthedocs.io/en/stable/#)) or
-* execution in the cloud [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/htw-ikt-noelle/Signaluebertragung.git/master?urlpath=lab) using [Binder](https://mybinder.org/)
+* execution in the cloud [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/htw-ikt-noelle/SignaleUndSysteme.git/master?urlpath=lab) using [Binder](https://mybinder.org/)
