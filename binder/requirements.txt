@@ -1,7 +1,0 @@
-# please use Python version 3.10
-# to install all dependencies, run pip install -r requirements.txt
-ipywidgets
-jupyterlab
-matplotlib
-numpy
-scipy
